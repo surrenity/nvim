@@ -11,13 +11,13 @@ vim.opt.smartindent = true
 vim.opt.wrap = false
 vim.opt.swapfile = false
 vim.opt.backup = true
-vim.opt.backupdir = os.getenv("USERPROFILE") .. "/.vim/backup"
-vim.opt.directory = os.getenv("USERPROFILE") .. "/.vim/swap"
+vim.opt.backupdir = os.getenv('HOME') .. "/.vim/backup"
+vim.opt.directory = os.getenv('HOME') .. "/.vim/swap"
 
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
 
-vim.opt.undodir = os.getenv("USERPROFILE") .. "/.vim/undodir"
+vim.opt.undodir = os.getenv('HOME') .. "/.vim/undodir"
 vim.opt.undofile = true
 
 vim.opt.ignorecase = true
